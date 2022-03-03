@@ -1,5 +1,7 @@
 import { useState } from "react";
 import axios from 'axios';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faKiwiBird } from '@fortawesome/free-solid-svg-icons';
 
 const LoginForm = () => {
     const [username, setUsername] = useState('')
@@ -33,6 +35,7 @@ const LoginForm = () => {
 return (
     <div className="wrapper">
         <div className="form">
+        <FontAwesomeIcon icon={faKiwiBird} className="birbIcon" />
             <h1 className="title"> Birb Chat</h1>
             <form onSubmit={handleSubmit}>
                 <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} className="input" placeholder="Username" required />
