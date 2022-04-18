@@ -25,10 +25,10 @@ Boa parte das resoluções, com pequenas quebras
 
 ## Preview do site:
 
-Tela de Seleção:
+Tela de Login:
 ![preview](/src/assets/images/BirbChatLogin.png "preview")
 
-Sanduiche com opções selecionadas:
+Tela de Chat:
 ![preview](/src/assets/images/birchatSendingImage.png "preview")
 
 
